@@ -15,7 +15,7 @@ CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
 GPU: 2080Ti * 2  
 RAM: 64GB  
 python 3.10.14  
-pytorch 2.1.0
+pytorch 2.1.0  
 cuda 11.8
 
 ## Install requirements for implement
