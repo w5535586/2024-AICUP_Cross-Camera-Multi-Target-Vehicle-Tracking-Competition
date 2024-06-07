@@ -36,7 +36,7 @@ Data preparation
 Training YOLO V9 model
 
 ``` 
-python train_dual.py --workers 8 --device 1 --batch 2 --data /ssd1/hai/aicup2024/AICUP_Baseline_BoT-SORT-main/yolov9/data/AICUP.yaml --img 1280 --cfg models/detect/yolov9-e.yaml --weights '' --name yolov9-e --hyp hyp.scratch-high.yaml --min-items 0 --epochs 10 --close-mosaic 15
+python train_dual.py --workers 8 --device 1 --batch 2 --data data/AICUP.yaml --img 1280 --cfg models/detect/yolov9-e.yaml --weights 'yor pretrain weight' --name yolov9-e --hyp hyp.scratch-high.yaml --min-items 0 --epochs 10 --close-mosaic 15
 ```
 
 ## Inference (tracking)
