@@ -2,6 +2,14 @@
 Source Code是對AICUP舉辦的跨相機多目標車輛追蹤競賽
 下面會有從建立環境、訓練模型、跟檢測的操作流程與步驟。
 
+## Model workflow
+
+<div align="center">
+    <a href="./">
+        <img src="./assets/SMPT-Tracker_construction.png" width="80%"/>
+    </a>
+</div>
+
 ## Our training conditions
 CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz  
 GPU: 2080Ti * 2  
